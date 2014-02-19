@@ -3,14 +3,14 @@ Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
+Total REAL time to Xst completion: 0.00 secs
 Total CPU time to Xst completion: 0.31 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.31 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.32 secs
  
 --> Reading design: vmodcam.prj
 
@@ -108,10 +108,10 @@ Cores Search Directories           : {"ipcore_dir"  }
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "C:\fpga\ISE\ECE552_CamCtl\ipcore_dir\fifo.vhd" into library work
+Parsing VHDL file "C:\fpga\ISE\ECE552_CamCtl_LowRes\ipcore_dir\fifo.vhd" into library work
 Parsing entity <fifo>.
 Parsing architecture <fifo_a> of entity <fifo>.
-Parsing VHDL file "C:\fpga\ISE\ECE552_CamCtl\ipcore_dir\fifo_synth.vhd" into library work
+Parsing VHDL file "C:\fpga\ISE\ECE552_CamCtl_LowRes\ipcore_dir\fifo_synth.vhd" into library work
 Parsing entity <fifo>.
 Parsing architecture <spartan6> of entity <fifo>.
 Parsing VHDL file "C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\proc_common_v3_00_a\hdl\vhdl\proc_common_pkg.vhd" into library proc_common_v3_00_a
@@ -155,12 +155,12 @@ Parsing architecture <implementation> of entity <axi_master_burst_rdmux>.
 Parsing VHDL file "C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_master_burst_v1_00_a\hdl\vhdl\axi_master_burst_fifo.vhd" into library axi_master_burst_v1_00_a
 Parsing entity <axi_master_burst_fifo>.
 Parsing architecture <imp> of entity <axi_master_burst_fifo>.
-Parsing VHDL file "C:\fpga\ISE\ECE552_CamCtl\TWICtl.vhd" into library work
+Parsing VHDL file "C:\fpga\ISE\ECE552_CamCtl_LowRes\TWICtl.vhd" into library work
 Parsing package <TWIUtils>.
 Parsing package body <TWIUtils>.
 Parsing entity <TWICtl>.
 Parsing architecture <Behavioral> of entity <twictl>.
-Parsing VHDL file "C:\fpga\ISE\ECE552_CamCtl\LocalRst.vhd" into library work
+Parsing VHDL file "C:\fpga\ISE\ECE552_CamCtl_LowRes\LocalRst.vhd" into library work
 Parsing entity <LocalRst>.
 Parsing architecture <Behavioral> of entity <localrst>.
 Parsing VHDL file "C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\proc_common_v3_00_a\hdl\vhdl\counter_f.vhd" into library proc_common_v3_00_a
@@ -199,9 +199,9 @@ Parsing architecture <implementation> of entity <axi_master_burst_addr_cntl>.
 Parsing VHDL file "C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_lite_ipif_v1_01_a\hdl\vhdl\address_decoder.vhd" into library axi_lite_ipif_v1_01_a
 Parsing entity <address_decoder>.
 Parsing architecture <IMP> of entity <address_decoder>.
-Parsing VHDL file "C:\fpga\ISE\ECE552_CamCtl\Video.vhd" into library work
+Parsing VHDL file "C:\fpga\ISE\ECE552_CamCtl_LowRes\Video.vhd" into library work
 Parsing package <Video>.
-Parsing VHDL file "C:\fpga\ISE\ECE552_CamCtl\CamCtl.vhd" into library work
+Parsing VHDL file "C:\fpga\ISE\ECE552_CamCtl_LowRes\CamCtl.vhd" into library work
 Parsing entity <CamCtl>.
 Parsing architecture <Behavioral> of entity <camctl>.
 Parsing VHDL file "C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_master_burst_v1_00_a\hdl\vhdl\axi_master_burst_wr_llink.vhd" into library axi_master_burst_v1_00_a
@@ -222,7 +222,7 @@ Parsing architecture <implementation> of entity <axi_master_burst_cmd_status>.
 Parsing VHDL file "C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_lite_ipif_v1_01_a\hdl\vhdl\slave_attachment.vhd" into library axi_lite_ipif_v1_01_a
 Parsing entity <slave_attachment>.
 Parsing architecture <imp> of entity <slave_attachment>.
-Parsing VHDL file "C:\fpga\ISE\ECE552_CamCtl\VmodCAM_Ref.vhd" into library work
+Parsing VHDL file "C:\fpga\ISE\ECE552_CamCtl_LowRes\VmodCAM_Ref.vhd" into library work
 Parsing entity <VmodCAM_Ref>.
 Parsing architecture <Behavioral> of entity <vmodcam_ref>.
 Parsing VHDL file "C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\proc_common_v3_00_a\hdl\vhdl\soft_reset.vhd" into library proc_common_v3_00_a
@@ -234,12 +234,12 @@ Parsing architecture <implementation> of entity <axi_master_burst>.
 Parsing VHDL file "C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_lite_ipif_v1_01_a\hdl\vhdl\axi_lite_ipif.vhd" into library axi_lite_ipif_v1_01_a
 Parsing entity <axi_lite_ipif>.
 Parsing architecture <imp> of entity <axi_lite_ipif>.
-Parsing VHDL file "C:\fpga\ISE\ECE552_CamCtl\user_logic.vhd" into library work
+Parsing VHDL file "C:\fpga\ISE\ECE552_CamCtl_LowRes\user_logic.vhd" into library work
 Parsing entity <user_logic>.
 Parsing architecture <IMP> of entity <user_logic>.
-WARNING:HDLCompiler:946 - "C:\fpga\ISE\ECE552_CamCtl\user_logic.vhd" Line 1064: Actual for formal port rd_en is neither a static name nor a globally static expression
-WARNING:HDLCompiler:946 - "C:\fpga\ISE\ECE552_CamCtl\user_logic.vhd" Line 1078: Actual for formal port rd_en is neither a static name nor a globally static expression
-Parsing VHDL file "C:\fpga\ISE\ECE552_CamCtl\vmodcam.vhd" into library work
+WARNING:HDLCompiler:946 - "C:\fpga\ISE\ECE552_CamCtl_LowRes\user_logic.vhd" Line 1064: Actual for formal port rd_en is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:\fpga\ISE\ECE552_CamCtl_LowRes\user_logic.vhd" Line 1078: Actual for formal port rd_en is neither a static name nor a globally static expression
+Parsing VHDL file "C:\fpga\ISE\ECE552_CamCtl_LowRes\vmodcam.vhd" into library work
 Parsing entity <vmodcam>.
 Parsing architecture <IMP> of entity <vmodcam>.
 
@@ -350,9 +350,9 @@ Elaborating entity <axi_master_burst_wr_llink> (architecture <implementation>) w
 Elaborating entity <soft_reset> (architecture <implementation>) with generics from library <proc_common_v3_00_a>.
 
 Elaborating entity <user_logic> (architecture <IMP>) with generics from library <work>.
-INFO:HDLCompiler:679 - "C:\fpga\ISE\ECE552_CamCtl\user_logic.vhd" Line 762. Case statement is complete. others clause is never selected
-INFO:HDLCompiler:679 - "C:\fpga\ISE\ECE552_CamCtl\user_logic.vhd" Line 817. Case statement is complete. others clause is never selected
-INFO:HDLCompiler:679 - "C:\fpga\ISE\ECE552_CamCtl\user_logic.vhd" Line 952. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "C:\fpga\ISE\ECE552_CamCtl_LowRes\user_logic.vhd" Line 762. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "C:\fpga\ISE\ECE552_CamCtl_LowRes\user_logic.vhd" Line 817. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "C:\fpga\ISE\ECE552_CamCtl_LowRes\user_logic.vhd" Line 952. Case statement is complete. others clause is never selected
 
 Elaborating entity <srl_fifo_f> (architecture <imp>) with generics from library <proc_common_v3_00_a>.
 
@@ -369,27 +369,26 @@ Elaborating entity <CamCtl> (architecture <Behavioral>) from library <work>.
 Elaborating entity <LocalRst> (architecture <Behavioral>) with generics from library <work>.
 
 Elaborating entity <TWICtl> (architecture <Behavioral>) with generics from library <work>.
-WARNING:HDLCompiler:1127 - "C:\fpga\ISE\ECE552_CamCtl\TWICtl.vhd" Line 169: Assignment to fstop ignored, since the identifier is never used
-INFO:HDLCompiler:679 - "C:\fpga\ISE\ECE552_CamCtl\TWICtl.vhd" Line 348. Case statement is complete. others clause is never selected
-INFO:HDLCompiler:679 - "C:\fpga\ISE\ECE552_CamCtl\TWICtl.vhd" Line 381. Case statement is complete. others clause is never selected
-INFO:HDLCompiler:679 - "C:\fpga\ISE\ECE552_CamCtl\TWICtl.vhd" Line 399. Case statement is complete. others clause is never selected
-INFO:HDLCompiler:679 - "C:\fpga\ISE\ECE552_CamCtl\TWICtl.vhd" Line 417. Case statement is complete. others clause is never selected
-INFO:HDLCompiler:679 - "C:\fpga\ISE\ECE552_CamCtl\TWICtl.vhd" Line 435. Case statement is complete. others clause is never selected
-WARNING:HDLCompiler:92 - "C:\fpga\ISE\ECE552_CamCtl\CamCtl.vhd" Line 384: regdata1 should be on the sensitivity list of the process
-INFO:HDLCompiler:679 - "C:\fpga\ISE\ECE552_CamCtl\CamCtl.vhd" Line 452. Case statement is complete. others clause is never selected
-WARNING:HDLCompiler:92 - "C:\fpga\ISE\ECE552_CamCtl\VmodCAM_Ref.vhd" Line 208: camadv should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:\fpga\ISE\ECE552_CamCtl\VmodCAM_Ref.vhd" Line 209: cambdv should be on the sensitivity list of the process
+WARNING:HDLCompiler:1127 - "C:\fpga\ISE\ECE552_CamCtl_LowRes\TWICtl.vhd" Line 169: Assignment to fstop ignored, since the identifier is never used
+INFO:HDLCompiler:679 - "C:\fpga\ISE\ECE552_CamCtl_LowRes\TWICtl.vhd" Line 348. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "C:\fpga\ISE\ECE552_CamCtl_LowRes\TWICtl.vhd" Line 381. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "C:\fpga\ISE\ECE552_CamCtl_LowRes\TWICtl.vhd" Line 399. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "C:\fpga\ISE\ECE552_CamCtl_LowRes\TWICtl.vhd" Line 417. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "C:\fpga\ISE\ECE552_CamCtl_LowRes\TWICtl.vhd" Line 435. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "C:\fpga\ISE\ECE552_CamCtl_LowRes\CamCtl.vhd" Line 446. Case statement is complete. others clause is never selected
+WARNING:HDLCompiler:92 - "C:\fpga\ISE\ECE552_CamCtl_LowRes\VmodCAM_Ref.vhd" Line 208: camadv should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\fpga\ISE\ECE552_CamCtl_LowRes\VmodCAM_Ref.vhd" Line 209: cambdv should be on the sensitivity list of the process
 
 Elaborating entity <fifo> (architecture <spartan6>) from library <work>.
-INFO:HDLCompiler:679 - "C:\fpga\ISE\ECE552_CamCtl\user_logic.vhd" Line 1203. Case statement is complete. others clause is never selected
-WARNING:Xst:2972 - "C:\fpga\ISE\ECE552_CamCtl\user_logic.vhd" line 969. All outputs of instance <DATA_CAPTURE_FIFO_I> of block <srl_fifo_f> are unconnected in block <user_logic>. Underlying logic will be removed.
+INFO:HDLCompiler:679 - "C:\fpga\ISE\ECE552_CamCtl_LowRes\user_logic.vhd" Line 1203. Case statement is complete. others clause is never selected
+WARNING:Xst:2972 - "C:\fpga\ISE\ECE552_CamCtl_LowRes\user_logic.vhd" line 969. All outputs of instance <DATA_CAPTURE_FIFO_I> of block <srl_fifo_f> are unconnected in block <user_logic>. Underlying logic will be removed.
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Synthesizing Unit <vmodcam>.
-    Related source file is "C:\fpga\ISE\ECE552_CamCtl\vmodcam.vhd".
+    Related source file is "C:\fpga\ISE\ECE552_CamCtl_LowRes\vmodcam.vhd".
 WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
 WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
 WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
@@ -422,9 +421,9 @@ WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/p
 WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
     Set property "MAX_FANOUT = 10000" for signal <m_axi_aresetn>.
 WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
-INFO:Xst:3210 - "C:\fpga\ISE\ECE552_CamCtl\vmodcam.vhd" line 432: Output port <Bus2IP_Addr> of the instance <AXI_LITE_IPIF_I> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\fpga\ISE\ECE552_CamCtl\vmodcam.vhd" line 432: Output port <Bus2IP_RNW> of the instance <AXI_LITE_IPIF_I> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\fpga\ISE\ECE552_CamCtl\vmodcam.vhd" line 562: Output port <Reset2Bus_ToutSup> of the instance <SOFT_RESET_I> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\fpga\ISE\ECE552_CamCtl_LowRes\vmodcam.vhd" line 432: Output port <Bus2IP_Addr> of the instance <AXI_LITE_IPIF_I> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\fpga\ISE\ECE552_CamCtl_LowRes\vmodcam.vhd" line 432: Output port <Bus2IP_RNW> of the instance <AXI_LITE_IPIF_I> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\fpga\ISE\ECE552_CamCtl_LowRes\vmodcam.vhd" line 562: Output port <Reset2Bus_ToutSup> of the instance <SOFT_RESET_I> is unconnected or connected to loadless signal.
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <vmodcam> synthesized.
@@ -1325,7 +1324,7 @@ WARNING:Xst:647 - Input <Bus2IP_BE<0:2>> is never used. This port will be preser
 Unit <soft_reset> synthesized.
 
 Synthesizing Unit <user_logic>.
-    Related source file is "C:\fpga\ISE\ECE552_CamCtl\user_logic.vhd".
+    Related source file is "C:\fpga\ISE\ECE552_CamCtl_LowRes\user_logic.vhd".
 WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
 WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
 WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
@@ -1346,13 +1345,13 @@ WARNING:Xst:647 - Input <bus2ip_mstrd_rem> is never used. This port will be pres
 WARNING:Xst:647 - Input <bus2ip_mst_rearbitrate> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <bus2ip_mstrd_sof_n> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <bus2ip_mstrd_src_dsc_n> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-INFO:Xst:3210 - "C:\fpga\ISE\ECE552_CamCtl\user_logic.vhd" line 969: Output port <Data_Out> of the instance <DATA_CAPTURE_FIFO_I> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\fpga\ISE\ECE552_CamCtl\user_logic.vhd" line 969: Output port <Addr> of the instance <DATA_CAPTURE_FIFO_I> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\fpga\ISE\ECE552_CamCtl\user_logic.vhd" line 969: Output port <FIFO_Empty> of the instance <DATA_CAPTURE_FIFO_I> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\fpga\ISE\ECE552_CamCtl\user_logic.vhd" line 969: Output port <FIFO_Full> of the instance <DATA_CAPTURE_FIFO_I> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\fpga\ISE\ECE552_CamCtl\user_logic.vhd" line 1017: Output port <LED_O> of the instance <Inst_VmodCAM> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\fpga\ISE\ECE552_CamCtl\user_logic.vhd" line 1071: Output port <full> of the instance <CAMB_FIFO> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\fpga\ISE\ECE552_CamCtl\user_logic.vhd" line 1071: Output port <empty> of the instance <CAMB_FIFO> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\fpga\ISE\ECE552_CamCtl_LowRes\user_logic.vhd" line 969: Output port <Data_Out> of the instance <DATA_CAPTURE_FIFO_I> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\fpga\ISE\ECE552_CamCtl_LowRes\user_logic.vhd" line 969: Output port <Addr> of the instance <DATA_CAPTURE_FIFO_I> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\fpga\ISE\ECE552_CamCtl_LowRes\user_logic.vhd" line 969: Output port <FIFO_Empty> of the instance <DATA_CAPTURE_FIFO_I> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\fpga\ISE\ECE552_CamCtl_LowRes\user_logic.vhd" line 969: Output port <FIFO_Full> of the instance <DATA_CAPTURE_FIFO_I> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\fpga\ISE\ECE552_CamCtl_LowRes\user_logic.vhd" line 1017: Output port <LED_O> of the instance <Inst_VmodCAM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\fpga\ISE\ECE552_CamCtl_LowRes\user_logic.vhd" line 1071: Output port <full> of the instance <CAMB_FIFO> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\fpga\ISE\ECE552_CamCtl_LowRes\user_logic.vhd" line 1071: Output port <empty> of the instance <CAMB_FIFO> is unconnected or connected to loadless signal.
     Found 32-bit register for signal <slv_reg1>.
     Found 32-bit register for signal <slv_reg2>.
     Found 32-bit register for signal <slv_reg3>.
@@ -1682,7 +1681,7 @@ INFO:Xst:3019 - HDL ADVISOR - 4096 flip-flops were inferred for signal <INFERRED
 Unit <dynshreg_f_3> synthesized.
 
 Synthesizing Unit <VmodCAM_Ref>.
-    Related source file is "C:\fpga\ISE\ECE552_CamCtl\VmodCAM_Ref.vhd".
+    Related source file is "C:\fpga\ISE\ECE552_CamCtl_LowRes\VmodCAM_Ref.vhd".
         C3_NUM_DQ_PINS = 16
         C3_MEM_ADDR_WIDTH = 13
         C3_MEM_BANKADDR_WIDTH = 3
@@ -1731,18 +1730,19 @@ INFO:Xst:2774 - HDL ADVISOR - S property attached to signal CAMB_D_I<7> may hind
 Unit <VmodCAM_Ref> synthesized.
 
 Synthesizing Unit <CamCtl>.
-    Related source file is "C:\fpga\ISE\ECE552_CamCtl\CamCtl.vhd".
+    Related source file is "C:\fpga\ISE\ECE552_CamCtl_LowRes\CamCtl.vhd".
+    Set property "buffer_type = BUFG" for signal <PCLK_I>.
 WARNING:Xst:647 - Input <FV_I> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-INFO:Xst:3210 - "C:\fpga\ISE\ECE552_CamCtl\CamCtl.vhd" line 276: Output port <ERRTYPE_O> of the instance <Inst_TWICtl> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\fpga\ISE\ECE552_CamCtl_LowRes\CamCtl.vhd" line 272: Output port <ERRTYPE_O> of the instance <Inst_TWICtl> is unconnected or connected to loadless signal.
 WARNING:Xst:3035 - Index value(s) does not match array range for signal <CamInitRAM>, simulation mismatch.
-    Found 39x33-bit single-port RAM <Mram_CamInitRAM> for signal <CamInitRAM>.
+    Found 26x33-bit single-port RAM <Mram_CamInitRAM> for signal <CamInitRAM>.
     Found 1-bit register for signal <DV_O>.
     Found 1-bit register for signal <intRst>.
     Found 22-bit register for signal <rstCnt>.
     Found 1-bit register for signal <VDDEN_O>.
     Found 1-bit register for signal <cam_data_sel>.
     Found 16-bit register for signal <D_O>.
-    Found 6-bit register for signal <initA>.
+    Found 5-bit register for signal <initA>.
     Found 15-bit register for signal <waitCnt>.
     Found 8-bit register for signal <regData1>.
     Found 3-bit register for signal <state>.
@@ -1761,24 +1761,22 @@ WARNING:Xst:3035 - Index value(s) does not match array range for signal <CamInit
     | Encoding           | auto                                           |
     | Implementation     | LUT                                            |
     -----------------------------------------------------------------------
-    Found 22-bit adder for signal <rstCnt[21]_GND_203_o_add_5_OUT> created at line 224.
-    Found 6-bit adder for signal <initA[5]_GND_203_o_add_19_OUT> created at line 319.
-    Found 15-bit subtractor for signal <GND_203_o_GND_203_o_sub_24_OUT<14:0>> created at line 330.
-    Found 8-bit 4-to-1 multiplexer for signal <twiDi> created at line 167.
-    Found 22-bit comparator greater for signal <rstCnt[21]_PWR_80_o_LessThan_5_o> created at line 222
-    Found 8-bit comparator equal for signal <initWord[15]_regData1[7]_equal_35_o> created at line 384
-    Found 8-bit comparator equal for signal <initWord[7]_twiDo[7]_equal_36_o> created at line 384
+    Found 22-bit adder for signal <rstCnt[21]_GND_203_o_add_5_OUT> created at line 229.
+    Found 5-bit adder for signal <initA[4]_GND_203_o_add_20_OUT> created at line 315.
+    Found 15-bit subtractor for signal <GND_203_o_GND_203_o_sub_25_OUT<14:0>> created at line 326.
+    Found 8-bit 4-to-1 multiplexer for signal <twiDi> created at line 172.
+    Found 22-bit comparator greater for signal <rstCnt[21]_PWR_80_o_LessThan_5_o> created at line 227
     Summary:
 	inferred   1 RAM(s).
 	inferred   3 Adder/Subtractor(s).
-	inferred  72 D-type flip-flop(s).
-	inferred   3 Comparator(s).
-	inferred   9 Multiplexer(s).
+	inferred  71 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   8 Multiplexer(s).
 	inferred   1 Finite State Machine(s).
 Unit <CamCtl> synthesized.
 
 Synthesizing Unit <LocalRst>.
-    Related source file is "C:\fpga\ISE\ECE552_CamCtl\LocalRst.vhd".
+    Related source file is "C:\fpga\ISE\ECE552_CamCtl_LowRes\LocalRst.vhd".
         RESET_PERIOD = 4
     Found 1-bit register for signal <RstQ<2>>.
     Found 1-bit register for signal <RstQ<3>>.
@@ -1789,7 +1787,7 @@ Synthesizing Unit <LocalRst>.
 Unit <LocalRst> synthesized.
 
 Synthesizing Unit <TWICtl>.
-    Related source file is "C:\fpga\ISE\ECE552_CamCtl\TWICtl.vhd".
+    Related source file is "C:\fpga\ISE\ECE552_CamCtl_LowRes\TWICtl.vhd".
         CLOCKFREQ = 24
     Set property "fsm_encoding = gray" for signal <state>.
 WARNING:Xst:2935 - Signal 'ERRTYPE_O', unconnected in block 'TWICtl', is tied to its initial value (0).
@@ -1842,7 +1840,7 @@ HDL Synthesis Report
 Macro Statistics
 # RAMs                                                 : 3
  256x4-bit single-port Read Only RAM                   : 1
- 39x33-bit single-port RAM                             : 2
+ 26x33-bit single-port RAM                             : 2
 # Adders/Subtractors                                   : 35
  12-bit subtractor                                     : 1
  15-bit subtractor                                     : 2
@@ -1856,9 +1854,8 @@ Macro Statistics
  32-bit adder                                          : 2
  33-bit subtractor                                     : 1
  4-bit adder                                           : 2
- 5-bit adder                                           : 1
+ 5-bit adder                                           : 3
  5-bit subtractor                                      : 1
- 6-bit adder                                           : 2
  6-bit subtractor                                      : 4
  8-bit subtractor                                      : 2
 # Registers                                            : 385
@@ -1871,11 +1868,12 @@ Macro Statistics
  3-bit register                                        : 9
  32-bit register                                       : 19
  4-bit register                                        : 28
- 6-bit register                                        : 8
+ 5-bit register                                        : 2
+ 6-bit register                                        : 6
  8-bit register                                        : 26
 # Latches                                              : 8
  1-bit latch                                           : 8
-# Comparators                                          : 37
+# Comparators                                          : 33
  11-bit comparator greater                             : 1
  11-bit comparator lessequal                           : 2
  16-bit comparator equal                               : 1
@@ -1885,11 +1883,10 @@ Macro Statistics
  3-bit comparator lessequal                            : 3
  32-bit comparator greater                             : 4
  32-bit comparator lessequal                           : 16
- 8-bit comparator equal                                : 4
  8-bit comparator not equal                            : 2
-# Multiplexers                                         : 443
+# Multiplexers                                         : 441
  1-bit 13-to-1 multiplexer                             : 8
- 1-bit 2-to-1 multiplexer                              : 355
+ 1-bit 2-to-1 multiplexer                              : 353
  1-bit 4-to-1 multiplexer                              : 2
  12-bit 2-to-1 multiplexer                             : 4
  15-bit 2-to-1 multiplexer                             : 2
@@ -1992,12 +1989,12 @@ INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_CamInitRAM> will be implemented on L
     | ram_type           | Distributed                         |          |
     -----------------------------------------------------------------------
     | Port A                                                              |
-    |     aspect ratio   | 39-word x 33-bit                    |          |
+    |     aspect ratio   | 26-word x 33-bit                    |          |
     |     clkA           | connected to signal <CLK>           | rise     |
-    |     weA            | connected to signal <GND>           | high     |
+    |     weA            | connected to internal node          | high     |
     |     addrA          | connected to signal <initA>         |          |
-    |     diA            | connected to signal <GND>           |          |
-    |     doA            | connected to signal <initFb>        |          |
+    |     diA            | connected to signal <(_n0130<32:16>,regData1,twiDo)> |          |
+    |     doA            | connected to internal node          |          |
     -----------------------------------------------------------------------
 Unit <CamCtl> synthesized (advanced).
 
@@ -2076,7 +2073,7 @@ Advanced HDL Synthesis Report
 Macro Statistics
 # RAMs                                                 : 3
  256x4-bit single-port distributed Read Only RAM       : 1
- 39x33-bit single-port distributed RAM                 : 2
+ 26x33-bit single-port distributed RAM                 : 2
 # Adders/Subtractors                                   : 11
  16-bit adder                                          : 2
  16-bit subtractor                                     : 1
@@ -2095,14 +2092,14 @@ Macro Statistics
  3-bit down counter                                    : 2
  3-bit updown counter                                  : 4
  4-bit up counter                                      : 2
+ 5-bit up counter                                      : 2
  6-bit down counter                                    : 4
- 6-bit up counter                                      : 2
  8-bit down counter                                    : 2
 # Accumulators                                         : 1
  12-bit down loadable accumulator                      : 1
 # Registers                                            : 1335
  Flip-Flops                                            : 1335
-# Comparators                                          : 37
+# Comparators                                          : 33
  11-bit comparator greater                             : 1
  11-bit comparator lessequal                           : 2
  16-bit comparator equal                               : 1
@@ -2112,11 +2109,10 @@ Macro Statistics
  3-bit comparator lessequal                            : 3
  32-bit comparator greater                             : 4
  32-bit comparator lessequal                           : 16
- 8-bit comparator equal                                : 4
  8-bit comparator not equal                            : 2
-# Multiplexers                                         : 605
+# Multiplexers                                         : 603
  1-bit 13-to-1 multiplexer                             : 8
- 1-bit 2-to-1 multiplexer                              : 535
+ 1-bit 2-to-1 multiplexer                              : 533
  1-bit 4-to-1 multiplexer                              : 2
  12-bit 2-to-1 multiplexer                             : 3
  16-bit 2-to-1 multiplexer                             : 4
@@ -2907,7 +2903,7 @@ Mapping all equations...
 Building and optimizing final netlist ...
 INFO:Xst:2261 - The FF/Latch <USER_LOGIC_I/mst_cmd_sm_xfer_length_6> in Unit <vmodcam> is equivalent to the following FF/Latch, which will be removed : <USER_LOGIC_I/mst_cmd_sm_ip2bus_be_0> 
 INFO:Xst:2261 - The FF/Latch <AXI_MASTER_BURST_I/I_CMD_STATUS_MODULE/sig_cmd_type_req> in Unit <vmodcam> is equivalent to the following FF/Latch, which will be removed : <AXI_MASTER_BURST_I/I_CMD_STATUS_MODULE/sig_cmd_mst_length_6> 
-Found area constraint ratio of 100 (+ 5) on block vmodcam, actual ratio is 6.
+Found area constraint ratio of 100 (+ 5) on block vmodcam, actual ratio is 7.
 INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i> in Unit <USER_LOGIC_I/CAMB_FIFO> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_fb_i> 
 INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_1> in Unit <USER_LOGIC_I/CAMB_FIFO> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_0> 
 INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_2> in Unit <USER_LOGIC_I/CAMB_FIFO> is equivalent to the following 2 FFs/Latches : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_1> <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_0> 
@@ -2928,18 +2924,6 @@ FlipFlop AXI_MASTER_BURST_I/I_CMD_STATUS_MODULE/sig_doing_write_reg has been rep
 FlipFlop AXI_MASTER_BURST_I/I_RD_WR_CNTRL_MODULE/I_MSTR_PCC/sig_addr_cntr_lsh_0 has been replicated 1 time(s)
 FlipFlop AXI_MASTER_BURST_I/I_RD_WR_CNTRL_MODULE/I_MSTR_PCC/sig_addr_cntr_lsh_1 has been replicated 1 time(s)
 FlipFlop AXI_MASTER_BURST_I/I_RD_WR_CNTRL_MODULE/I_MSTR_PCC/sig_addr_cntr_lsh_2 has been replicated 1 time(s)
-FlipFlop USER_LOGIC_I/Inst_VmodCAM/Inst_camctlA/initA_0 has been replicated 1 time(s)
-FlipFlop USER_LOGIC_I/Inst_VmodCAM/Inst_camctlA/initA_1 has been replicated 1 time(s)
-FlipFlop USER_LOGIC_I/Inst_VmodCAM/Inst_camctlA/initA_2 has been replicated 1 time(s)
-FlipFlop USER_LOGIC_I/Inst_VmodCAM/Inst_camctlA/initA_3 has been replicated 1 time(s)
-FlipFlop USER_LOGIC_I/Inst_VmodCAM/Inst_camctlA/initA_4 has been replicated 1 time(s)
-FlipFlop USER_LOGIC_I/Inst_VmodCAM/Inst_camctlA/initA_5 has been replicated 1 time(s)
-FlipFlop USER_LOGIC_I/Inst_VmodCAM/Inst_camctlB/initA_0 has been replicated 1 time(s)
-FlipFlop USER_LOGIC_I/Inst_VmodCAM/Inst_camctlB/initA_1 has been replicated 1 time(s)
-FlipFlop USER_LOGIC_I/Inst_VmodCAM/Inst_camctlB/initA_2 has been replicated 1 time(s)
-FlipFlop USER_LOGIC_I/Inst_VmodCAM/Inst_camctlB/initA_3 has been replicated 1 time(s)
-FlipFlop USER_LOGIC_I/Inst_VmodCAM/Inst_camctlB/initA_4 has been replicated 1 time(s)
-FlipFlop USER_LOGIC_I/Inst_VmodCAM/Inst_camctlB/initA_5 has been replicated 1 time(s)
 
 Final Macro Processing ...
 
@@ -2951,8 +2935,8 @@ Unit <vmodcam> processed.
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 901
- Flip-Flops                                            : 901
+# Registers                                            : 887
+ Flip-Flops                                            : 887
 
 =========================================================================
 
@@ -2975,35 +2959,35 @@ Top Level Output File Name         : vmodcam.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 1973
+# BELS                             : 1960
 #      GND                         : 5
-#      INV                         : 40
+#      INV                         : 43
 #      LUT1                        : 84
-#      LUT2                        : 199
+#      LUT2                        : 201
 #      LUT3                        : 208
-#      LUT4                        : 276
-#      LUT5                        : 232
-#      LUT6                        : 421
+#      LUT4                        : 274
+#      LUT5                        : 228
+#      LUT6                        : 409
 #      MUXCY                       : 271
 #      MUXCY_L                     : 6
 #      MUXF7                       : 6
 #      VCC                         : 3
 #      XORCY                       : 222
-# FlipFlops/Latches                : 1249
-#      FD                          : 249
+# FlipFlops/Latches                : 1235
+#      FD                          : 215
 #      FDC                         : 202
 #      FDCE                        : 98
-#      FDE                         : 265
+#      FDE                         : 297
 #      FDP                         : 32
 #      FDPE                        : 4
-#      FDR                         : 104
-#      FDRE                        : 269
+#      FDR                         : 106
+#      FDRE                        : 255
 #      FDS                         : 10
 #      FDSE                        : 6
 #      LD                          : 8
 #      ODDR2                       : 2
 # RAMS                             : 74
-#      RAM64X1S                    : 66
+#      RAM32X1S                    : 66
 #      RAMB16BWER                  : 8
 # Shift Registers                  : 9
 #      SRLC16E                     : 9
@@ -3022,19 +3006,19 @@ Selected Device : 6slx45csg324-3
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:            1241  out of  54576     2%  
- Number of Slice LUTs:                 1535  out of  27288     5%  
-    Number used as Logic:              1460  out of  27288     5%  
+ Number of Slice Registers:            1227  out of  54576     2%  
+ Number of Slice LUTs:                 1522  out of  27288     5%  
+    Number used as Logic:              1447  out of  27288     5%  
     Number used as Memory:               75  out of   6408     1%  
        Number used as RAM:               66
        Number used as SRL:                9
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:   1874
-   Number with an unused Flip Flop:     633  out of   1874    33%  
-   Number with an unused LUT:           339  out of   1874    18%  
-   Number of fully used LUT-FF pairs:   902  out of   1874    48%  
-   Number of unique control sets:        90
+ Number of LUT Flip Flop pairs used:   1854
+   Number with an unused Flip Flop:     627  out of   1854    33%  
+   Number with an unused LUT:           332  out of   1854    17%  
+   Number of fully used LUT-FF pairs:   895  out of   1854    48%  
+   Number of unique control sets:        92
 
 IO Utilization: 
  Number of IOs:                         391
@@ -3073,7 +3057,7 @@ S_AXI_ACLK                                                                     |
 USER_LOGIC_I/SW_I[3]_SW_I[3]_OR_257_o(USER_LOGIC_I/SW_I[3]_SW_I[3]_OR_257_o1:O)| NONE(*)(USER_LOGIC_I/LED_O_6)| 8     |
 CAMB_PCLK_I                                                                    | IBUF+BUFG                    | 125   |
 CAMA_PCLK_I                                                                    | IBUF+BUFG                    | 125   |
-CamClk                                                                         | BUFGP                        | 252   |
+CamClk                                                                         | BUFGP                        | 238   |
 CamClk_180                                                                     | BUFGP                        | 2     |
 m_axi_aclk                                                                     | BUFGP                        | 531   |
 -------------------------------------------------------------------------------+------------------------------+-------+
@@ -3115,7 +3099,7 @@ Delay:               4.870ns (Levels of Logic = 3)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      FDR:C->Q             92   0.447   1.825  USER_LOGIC_I/p1_en (USER_LOGIC_I/p1_en)
-     LUT5:I4->O            3   0.205   0.755  USER_LOGIC_I/mst_fifo_valid_read_xfer_p1_en_AND_387_o1 (USER_LOGIC_I/mst_fifo_valid_read_xfer_p1_en_AND_387_o)
+     LUT5:I4->O            3   0.205   0.755  USER_LOGIC_I/mst_fifo_valid_read_xfer_p1_en_AND_385_o1 (USER_LOGIC_I/mst_fifo_valid_read_xfer_p1_en_AND_385_o)
      begin scope: 'USER_LOGIC_I/CAMA_FIFO:rd_en'
      LUT2:I0->O           21   0.203   1.113  U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/ram_rd_en_i1 (U0/xst_fifo_generator/gconvfifo.rf/grf.rf/ram_rd_en)
      FDCE:CE                   0.322          U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_1
@@ -3171,29 +3155,29 @@ Delay:               3.054ns (Levels of Logic = 2)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'CamClk'
-  Clock period: 5.647ns (frequency: 177.098MHz)
-  Total number of paths / destination ports: 8620 / 734
+  Clock period: 5.669ns (frequency: 176.402MHz)
+  Total number of paths / destination ports: 5922 / 758
 -------------------------------------------------------------------------
-Delay:               5.647ns (Levels of Logic = 5)
-  Source:            USER_LOGIC_I/Inst_VmodCAM/Inst_camctlB/initA_0_1 (FF)
-  Destination:       USER_LOGIC_I/Inst_VmodCAM/Inst_camctlB/initA_5 (FF)
+Delay:               5.669ns (Levels of Logic = 5)
+  Source:            USER_LOGIC_I/Inst_VmodCAM/Inst_camctlA/initA_0 (FF)
+  Destination:       USER_LOGIC_I/Inst_VmodCAM/Inst_camctlA/Inst_TWICtl/state_FSM_FFd1 (FF)
   Source Clock:      CamClk rising
   Destination Clock: CamClk rising
 
-  Data Path: USER_LOGIC_I/Inst_VmodCAM/Inst_camctlB/initA_0_1 to USER_LOGIC_I/Inst_VmodCAM/Inst_camctlB/initA_5
+  Data Path: USER_LOGIC_I/Inst_VmodCAM/Inst_camctlA/initA_0 to USER_LOGIC_I/Inst_VmodCAM/Inst_camctlA/Inst_TWICtl/state_FSM_FFd1
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDRE:C->Q            15   0.447   0.981  USER_LOGIC_I/Inst_VmodCAM/Inst_camctlB/initA_0_1 (USER_LOGIC_I/Inst_VmodCAM/Inst_camctlB/initA_0_1)
-     RAM64X1S:A0->O        2   0.205   0.845  USER_LOGIC_I/Inst_VmodCAM/Inst_camctlB/Mram_CamInitRAM13 (USER_LOGIC_I/Inst_VmodCAM/Inst_camctlB/initFb<12>)
-     LUT6:I3->O            1   0.205   0.924  USER_LOGIC_I/Inst_VmodCAM/Inst_camctlB/Mmux_initEn16 (USER_LOGIC_I/Inst_VmodCAM/Inst_camctlB/Mmux_initEn15)
-     LUT6:I1->O            1   0.203   0.580  USER_LOGIC_I/Inst_VmodCAM/Inst_camctlB/Mmux_initEn17 (USER_LOGIC_I/Inst_VmodCAM/Inst_camctlB/Mmux_initEn16)
-     LUT6:I5->O            6   0.205   0.745  USER_LOGIC_I/Inst_VmodCAM/Inst_camctlB/Mmux_initEn18_rstpot (USER_LOGIC_I/Inst_VmodCAM/Inst_camctlB/Mmux_initEn18_rstpot)
-     LUT3:I2->O            2   0.205   0.000  USER_LOGIC_I/Inst_VmodCAM/Inst_camctlB/initA_5_dpot (USER_LOGIC_I/Inst_VmodCAM/Inst_camctlB/initA_5_dpot)
-     FDRE:D                    0.102          USER_LOGIC_I/Inst_VmodCAM/Inst_camctlB/initA_5
+     FDRE:C->Q            40   0.447   1.405  USER_LOGIC_I/Inst_VmodCAM/Inst_camctlA/initA_0 (USER_LOGIC_I/Inst_VmodCAM/Inst_camctlA/initA_0)
+     RAM32X1S:A0->O        6   0.205   0.745  USER_LOGIC_I/Inst_VmodCAM/Inst_camctlA/Mram_CamInitRAM33 (USER_LOGIC_I/Inst_VmodCAM/Inst_camctlA/_n0130<32>)
+     LUT4:I3->O            4   0.205   0.788  USER_LOGIC_I/Inst_VmodCAM/Inst_camctlA/Mmux_twiNewMsg11 (USER_LOGIC_I/Inst_VmodCAM/Inst_camctlA/twiNewMsg)
+     LUT6:I4->O            1   0.203   0.580  USER_LOGIC_I/Inst_VmodCAM/Inst_camctlA/Inst_TWICtl/state_FSM_FFd2-In4 (USER_LOGIC_I/Inst_VmodCAM/Inst_camctlA/Inst_TWICtl/state_FSM_FFd2-In7)
+     LUT6:I5->O            1   0.205   0.580  USER_LOGIC_I/Inst_VmodCAM/Inst_camctlA/Inst_TWICtl/state_FSM_FFd2-In6 (USER_LOGIC_I/Inst_VmodCAM/Inst_camctlA/Inst_TWICtl/state_FSM_FFd2-In9)
+     LUT5:I4->O            1   0.205   0.000  USER_LOGIC_I/Inst_VmodCAM/Inst_camctlA/Inst_TWICtl/state_FSM_FFd2-In7 (USER_LOGIC_I/Inst_VmodCAM/Inst_camctlA/Inst_TWICtl/state_FSM_FFd2-In)
+     FD:D                      0.102          USER_LOGIC_I/Inst_VmodCAM/Inst_camctlA/Inst_TWICtl/state_FSM_FFd2
     ----------------------------------------
-    Total                      5.647ns (1.572ns logic, 4.075ns route)
-                                       (27.8% logic, 72.2% route)
+    Total                      5.669ns (1.572ns logic, 4.097ns route)
+                                       (27.7% logic, 72.3% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'm_axi_aclk'
@@ -3435,7 +3419,7 @@ Clock to Setup on destination clock CAMA_PCLK_I
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
 CAMA_PCLK_I    |    3.054|         |         |         |
-CamClk         |    2.054|         |         |         |
+CamClk         |    3.399|         |         |         |
 S_AXI_ACLK     |    4.431|         |         |         |
 ---------------+---------+---------+---------+---------+
 
@@ -3445,7 +3429,7 @@ Clock to Setup on destination clock CAMB_PCLK_I
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
 CAMB_PCLK_I    |    3.022|         |         |         |
-CamClk         |    2.054|         |         |         |
+CamClk         |    3.399|         |         |         |
 S_AXI_ACLK     |    4.431|         |         |         |
 ---------------+---------+---------+---------+---------+
 
@@ -3454,7 +3438,7 @@ Clock to Setup on destination clock CamClk
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-CamClk         |    5.647|         |         |         |
+CamClk         |    5.669|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock S_AXI_ACLK
@@ -3492,13 +3476,13 @@ m_axi_aclk     |    6.080|         |         |         |
 
 
 Total REAL time to Xst completion: 92.00 secs
-Total CPU time to Xst completion: 91.99 secs
+Total CPU time to Xst completion: 92.59 secs
  
 --> 
 
 Total memory usage is 347896 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :  750 (   0 filtered)
+Number of warnings :  749 (   0 filtered)
 Number of infos    :  141 (   0 filtered)
 
