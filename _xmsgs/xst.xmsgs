@@ -5,10 +5,10 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="946" delta="old" >"C:\fpga\ISE\ECE552_CamCtl_LowRes\user_logic.vhd" Line 1064: Actual for formal port <arg fmt="%s" index="1">rd_en</arg> is neither a static name nor a globally static expression
+<msg type="warning" file="HDLCompiler" num="946" delta="old" >"C:\Users\tariqmuh\Documents\GitHub\ECE552_CamCtl_LowRes\user_logic.vhd" Line 1064: Actual for formal port <arg fmt="%s" index="1">rd_en</arg> is neither a static name nor a globally static expression
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="946" delta="old" >"C:\fpga\ISE\ECE552_CamCtl_LowRes\user_logic.vhd" Line 1078: Actual for formal port <arg fmt="%s" index="1">rd_en</arg> is neither a static name nor a globally static expression
+<msg type="warning" file="HDLCompiler" num="946" delta="old" >"C:\Users\tariqmuh\Documents\GitHub\ECE552_CamCtl_LowRes\user_logic.vhd" Line 1078: Actual for formal port <arg fmt="%s" index="1">rd_en</arg> is neither a static name nor a globally static expression
 </msg>
 
 <msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_master_burst_v1_00_a\hdl\vhdl\axi_master_burst_cmd_status.vhd" Line 430: Assignment to <arg fmt="%s" index="1">sig_pcc_cmd_rdy</arg> ignored, since the identifier is never used
@@ -47,19 +47,16 @@
 <msg type="warning" file="HDLCompiler" num="89" delta="old" >"C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\proc_common_v3_00_a\hdl\vhdl\dynshreg_f.vhd" Line 197: &lt;<arg fmt="%s" index="1">srlc16e</arg>&gt; remains a black-box since it has no binding entity.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\fpga\ISE\ECE552_CamCtl_LowRes\TWICtl.vhd" Line 169: Assignment to <arg fmt="%s" index="1">fstop</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\tariqmuh\Documents\GitHub\ECE552_CamCtl_LowRes\TWICtl.vhd" Line 169: Assignment to <arg fmt="%s" index="1">fstop</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="92" delta="old" >"C:\fpga\ISE\ECE552_CamCtl_LowRes\VmodCAM_Ref.vhd" Line 208: <arg fmt="%s" index="1">camadv</arg> should be on the sensitivity list of the process
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"C:\Users\tariqmuh\Documents\GitHub\ECE552_CamCtl_LowRes\VmodCAM_Ref.vhd" Line 208: <arg fmt="%s" index="1">camadv</arg> should be on the sensitivity list of the process
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="92" delta="old" >"C:\fpga\ISE\ECE552_CamCtl_LowRes\VmodCAM_Ref.vhd" Line 209: <arg fmt="%s" index="1">cambdv</arg> should be on the sensitivity list of the process
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"C:\Users\tariqmuh\Documents\GitHub\ECE552_CamCtl_LowRes\VmodCAM_Ref.vhd" Line 209: <arg fmt="%s" index="1">cambdv</arg> should be on the sensitivity list of the process
 </msg>
 
-<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\fpga\ISE\ECE552_CamCtl_LowRes\user_logic.vhd</arg>&quot; line <arg fmt="%d" index="2">969</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">DATA_CAPTURE_FIFO_I</arg>&gt; of block &lt;<arg fmt="%s" index="4">srl_fifo_f</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">user_logic</arg>&gt;. Underlying logic will be removed.
-</msg>
-
-<msg type="warning" file="Xst" num="37" delta="old" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">sigis</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\tariqmuh\Documents\GitHub\ECE552_CamCtl_LowRes\user_logic.vhd</arg>&quot; line <arg fmt="%d" index="2">969</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">DATA_CAPTURE_FIFO_I</arg>&gt; of block &lt;<arg fmt="%s" index="4">srl_fifo_f</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">user_logic</arg>&gt;. Underlying logic will be removed.
 </msg>
 
 <msg type="warning" file="Xst" num="37" delta="old" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">sigis</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
@@ -83,13 +80,16 @@
 <msg type="warning" file="Xst" num="37" delta="old" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">sigis</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\fpga\ISE\ECE552_CamCtl_LowRes\vmodcam.vhd</arg>&quot; line <arg fmt="%s" index="2">432</arg>: Output port &lt;<arg fmt="%s" index="3">Bus2IP_Addr</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">AXI_LITE_IPIF_I</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="warning" file="Xst" num="37" delta="old" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">sigis</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\fpga\ISE\ECE552_CamCtl_LowRes\vmodcam.vhd</arg>&quot; line <arg fmt="%s" index="2">432</arg>: Output port &lt;<arg fmt="%s" index="3">Bus2IP_RNW</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">AXI_LITE_IPIF_I</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\tariqmuh\Documents\GitHub\ECE552_CamCtl_LowRes\vmodcam.vhd</arg>&quot; line <arg fmt="%s" index="2">432</arg>: Output port &lt;<arg fmt="%s" index="3">Bus2IP_Addr</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">AXI_LITE_IPIF_I</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\fpga\ISE\ECE552_CamCtl_LowRes\vmodcam.vhd</arg>&quot; line <arg fmt="%s" index="2">562</arg>: Output port &lt;<arg fmt="%s" index="3">Reset2Bus_ToutSup</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">SOFT_RESET_I</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\tariqmuh\Documents\GitHub\ECE552_CamCtl_LowRes\vmodcam.vhd</arg>&quot; line <arg fmt="%s" index="2">432</arg>: Output port &lt;<arg fmt="%s" index="3">Bus2IP_RNW</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">AXI_LITE_IPIF_I</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\tariqmuh\Documents\GitHub\ECE552_CamCtl_LowRes\vmodcam.vhd</arg>&quot; line <arg fmt="%s" index="2">562</arg>: Output port &lt;<arg fmt="%s" index="3">Reset2Bus_ToutSup</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">SOFT_RESET_I</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
 <msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">S_AXI_AWADDR&lt;31:9&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -377,25 +377,25 @@
 <msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">bus2ip_mstrd_src_dsc_n</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\fpga\ISE\ECE552_CamCtl_LowRes\user_logic.vhd</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">Data_Out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DATA_CAPTURE_FIFO_I</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\tariqmuh\Documents\GitHub\ECE552_CamCtl_LowRes\user_logic.vhd</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">Data_Out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DATA_CAPTURE_FIFO_I</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\fpga\ISE\ECE552_CamCtl_LowRes\user_logic.vhd</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">Addr</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DATA_CAPTURE_FIFO_I</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\tariqmuh\Documents\GitHub\ECE552_CamCtl_LowRes\user_logic.vhd</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">Addr</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DATA_CAPTURE_FIFO_I</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\fpga\ISE\ECE552_CamCtl_LowRes\user_logic.vhd</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">FIFO_Empty</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DATA_CAPTURE_FIFO_I</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\tariqmuh\Documents\GitHub\ECE552_CamCtl_LowRes\user_logic.vhd</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">FIFO_Empty</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DATA_CAPTURE_FIFO_I</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\fpga\ISE\ECE552_CamCtl_LowRes\user_logic.vhd</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">FIFO_Full</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DATA_CAPTURE_FIFO_I</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\tariqmuh\Documents\GitHub\ECE552_CamCtl_LowRes\user_logic.vhd</arg>&quot; line <arg fmt="%s" index="2">969</arg>: Output port &lt;<arg fmt="%s" index="3">FIFO_Full</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DATA_CAPTURE_FIFO_I</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\fpga\ISE\ECE552_CamCtl_LowRes\user_logic.vhd</arg>&quot; line <arg fmt="%s" index="2">1017</arg>: Output port &lt;<arg fmt="%s" index="3">LED_O</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">Inst_VmodCAM</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\tariqmuh\Documents\GitHub\ECE552_CamCtl_LowRes\user_logic.vhd</arg>&quot; line <arg fmt="%s" index="2">1017</arg>: Output port &lt;<arg fmt="%s" index="3">LED_O</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">Inst_VmodCAM</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\fpga\ISE\ECE552_CamCtl_LowRes\user_logic.vhd</arg>&quot; line <arg fmt="%s" index="2">1071</arg>: Output port &lt;<arg fmt="%s" index="3">full</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CAMB_FIFO</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\tariqmuh\Documents\GitHub\ECE552_CamCtl_LowRes\user_logic.vhd</arg>&quot; line <arg fmt="%s" index="2">1071</arg>: Output port &lt;<arg fmt="%s" index="3">full</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CAMB_FIFO</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\fpga\ISE\ECE552_CamCtl_LowRes\user_logic.vhd</arg>&quot; line <arg fmt="%s" index="2">1071</arg>: Output port &lt;<arg fmt="%s" index="3">empty</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CAMB_FIFO</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\tariqmuh\Documents\GitHub\ECE552_CamCtl_LowRes\user_logic.vhd</arg>&quot; line <arg fmt="%s" index="2">1071</arg>: Output port &lt;<arg fmt="%s" index="3">empty</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CAMB_FIFO</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
 <msg type="info" file="Xst" num="1799" delta="old" >State <arg fmt="%s" index="1">llwr_sngl_init</arg> is never reached in FSM &lt;<arg fmt="%s" index="2">mst_llwr_sm_state</arg>&gt;.
@@ -458,7 +458,7 @@
 <msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">FV_I</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\fpga\ISE\ECE552_CamCtl_LowRes\CamCtl.vhd</arg>&quot; line <arg fmt="%s" index="2">272</arg>: Output port &lt;<arg fmt="%s" index="3">ERRTYPE_O</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">Inst_TWICtl</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\tariqmuh\Documents\GitHub\ECE552_CamCtl_LowRes\CamCtl.vhd</arg>&quot; line <arg fmt="%s" index="2">272</arg>: Output port &lt;<arg fmt="%s" index="3">ERRTYPE_O</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">Inst_TWICtl</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
 <msg type="warning" file="Xst" num="3035" delta="old" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">CamInitRAM</arg>&gt;, simulation mismatch.

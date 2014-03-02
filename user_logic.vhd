@@ -1090,7 +1090,7 @@ CAMA_FIFO : fifo
 	process(CLKA) begin
 		if Rising_Edge(CLKA) then
 			if ( Bus2IP_Resetn = '0' ) then
-					p1_wr_en <= '0';
+					--p1_wr_en <= '0';
 
 					pa_wr_data_sel <= '0';
 			else
@@ -1099,21 +1099,24 @@ CAMA_FIFO : fifo
 						p1_wr_data(15 downto 0) <= DIA;
 					end if;
 
-					p1_wr_en <= pa_wr_data_sel;
+					--p1_wr_en <= pa_wr_data_sel;
 					
 					pa_wr_data_sel <= not pa_wr_data_sel;
-				else 
-					p1_wr_en <= '0';
+				--else 
+					--p1_wr_en <= '0';
 			
 				end if;
 			end if;
 		end if;
 	end process;
 	
+	--ADDED
+	p1_wr_en <= pa_wr_data_sel and ENA;
+	
 	process(CLKB) begin
 		if Rising_Edge(CLKB) then
 			if ( Bus2IP_Resetn = '0' ) then
-					p2_wr_en <= '0';
+					--p2_wr_en <= '0';
 
 					pb_wr_data_sel <= '0';
 			else
@@ -1122,16 +1125,19 @@ CAMA_FIFO : fifo
 						p2_wr_data(15 downto 0) <= DIB;
 					end if;
 
-					p2_wr_en <= pb_wr_data_sel;
+					--p2_wr_en <= pb_wr_data_sel;
 					
 					pb_wr_data_sel <= not pb_wr_data_sel;
-				else 
-					p2_wr_en <= '0';
+				--else 
+					--p2_wr_en <= '0';
 			
 				end if;
 			end if;
 		end if;
 	end process;
+	
+	--ADDED
+	p2_wr_en <= pb_wr_data_sel and ENB;
 
 	process(Bus2IP_Clk) begin
 		if Rising_Edge(Bus2IP_Clk) then
@@ -1139,7 +1145,7 @@ CAMA_FIFO : fifo
 					cama_sm_state <= CAM_IDLE;
 					mst_cntl_wr_req <= '0';
 					pa_wr_addr <= X"A0000000";
-					pb_wr_addr <= X"A8000000";
+					pb_wr_addr <= X"A0100000";
 					p1_en <= '0';
 					p2_en <= '0';
 			else
@@ -1173,7 +1179,7 @@ CAMA_FIFO : fifo
 						if(Bus2IP_Mst_Cmplt = '1') then
 							cama_sm_state <= CAM_IDLE;
 							p1_en <= '0';
-							if (pa_wr_addr = X"A03A97C0") then
+							if (pa_wr_addr = X"A0095FC0") then
 								pa_wr_addr <= X"A0000000";
 							else
 								pa_wr_addr <= pa_wr_addr + 64;
@@ -1193,8 +1199,8 @@ CAMA_FIFO : fifo
 						if(Bus2IP_Mst_Cmplt = '1') then
 							cama_sm_state <= CAM_IDLE;
 							p2_en <= '0';
-							if (pb_wr_addr = X"A83A97C0") then
-								pb_wr_addr <= X"A8000000";
+							if (pb_wr_addr = X"A0195FC0") then
+								pb_wr_addr <= X"A0100000";
 							else
 								pb_wr_addr <= pb_wr_addr + 64;
 							end if;
